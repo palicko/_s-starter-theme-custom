@@ -1,0 +1,21 @@
+{
+  "name": "egroup",
+  "author": "Webikon (Pavol Caban)",
+  "private": true,
+  "version": "0.0.1",
+  "devDependencies": {
+    "gulp": "latest",
+    "bower": "latest",
+    "gulp-sass": "latest",
+    "gulp-watch": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-uglify": "latest",
+    "gulp-plumber": "latest",
+    "gulp-concat": "latest",
+    "gulp-imagemin": "latest"
+  },
+  "dependencies": {
+    "browser-sync": "^2.5.2"
+  }
+}

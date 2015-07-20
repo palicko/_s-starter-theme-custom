@@ -1,0 +1,24 @@
+.main-navigation {
+	
+	.current_page_item > a,
+	.current-menu-item > a,
+	.current_page_ancestor > a {
+	
+	}
+}
+
+/* Small menu. */
+.menu-toggle {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	.menu-toggle,
+	.main-navigation.toggled .nav-menu {
+		display: block;
+	}
+
+	.main-navigation ul {
+		display: none;
+	}
+}
