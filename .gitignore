@@ -12,6 +12,7 @@
 Thumbs.db
 *.sublime-project
 *.sublime-workspace
+*.dmp
 
 # dev
 .htaccess
@@ -19,6 +20,9 @@ find.php
 *.sql
 .sass-cache
 node_modules
+bower_components
+npm-debug.log
+npm-debug.log*
 
 # Default themes
 wp-content/themes/twentyeleven
@@ -37,6 +41,8 @@ wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
 wp-content/cache/*
 wp-content/cache/supercache/*
+wp-content/plugins/debug-bar
+wp-content/debug.log
 
 # wpengine specific
 .smushit-status

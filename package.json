@@ -9,11 +9,13 @@
     "gulp-sass": "latest",
     "gulp-watch": "latest",
     "gulp-autoprefixer": "latest",
-    "gulp-minify-css": "latest",
+    "gulp-cssshrink": "latest",
     "gulp-uglify": "latest",
     "gulp-plumber": "latest",
     "gulp-concat": "latest",
-    "gulp-imagemin": "latest"
+    "gulp-imagemin": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-flatten": "latest"
   },
   "dependencies": {
     "browser-sync": "^2.5.2"
